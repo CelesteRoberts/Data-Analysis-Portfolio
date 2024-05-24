@@ -20,8 +20,7 @@ Through an in-depth examination of the data housed within this relational databa
 
 ## Data Source 
 
-The bike shop database comprises nine relational tables. The ER-Diagram displayed below illustrates these tables and their attributes. 
-In addition to constructing this diagram, I identified the primary and foreign key relationships by thoroughly analyzing these tables and their relationships.
+The bike shop database consists of nine relational tables, each depicting specific entities and their attributes. The ER-Diagram presented below visually delineates these tables and their corresponding attributes. 
 
 ![Screenshot 2024-05-24 160530](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/assets/153464094/373a8920-b3aa-4642-9060-be12b77a20e0)
 
@@ -33,8 +32,8 @@ In addition to constructing this diagram, I identified the primary and foreign k
 ## Database Creation and Preparation
 1. Conducted an in-depth analysis of 9 provided CSV files to discern their entity relationships.
 2. Established key constraints to ensure data integrity.
-3. Developed a comprehensive diagram illustrating tables, attributes, primary keys, and foreign keys.
-4. Executed the creation of the bikeshop database, crafting precise scripts for all 9 tables.
+3. Developed a comprehensive diagram illustrating tables, attributes, primary keys, and foreign keys (shown above).
+4. Executed the creation of the bikeshop database, creating scripts for all 9 tables.
 5. Successfully imported CSV files into the bikeshop database, ensuring seamless data integration.
 
 ## Exploratory Data Analysis 

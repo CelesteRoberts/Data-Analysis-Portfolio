@@ -31,18 +31,18 @@ In addition to constructing this diagram, I identified the primary and foreign k
 - Draw.io (to create the ER diagram)
 
 ## Database Creation and Preparation
-1. Analyze 9 CSV files provided and determine their entity relationships.
-2. Identify key constraints.
-3. Create diagram of tables and their attributes, including their primary key and foreign keys.
-4. Create bikeshop database and write create scripts for all 9 tables.
-5. Import csv files into the bikeshop database.
+1. Conducted an in-depth analysis of 9 provided CSV files to discern their entity relationships.
+2. Established key constraints to ensure data integrity.
+3. Developed a comprehensive diagram illustrating tables, attributes, primary keys, and foreign keys.
+4. Executed the creation of the bikeshop database, crafting precise scripts for all 9 tables.
+5. Successfully imported CSV files into the bikeshop database, ensuring seamless data integration.
 
 ## Exploratory Data Analysis 
-- Identify the highest revenue generating bicycle model.
-- Identify states with the highest sales revenue.
-- Determine the most popular bike model per state?
-- Find a month over month comparison for 2003 and 2004 sales.
-- Analyze employee's sales with their respective salary. Who has the highest sales?
+- Determined the bicycle model generating the highest revenue.
+- Identified states boasting the highest sales revenue.
+- Explored the most popular bike model per state.
+- Conducted a month-over-month comparison of sales for 2003 and 2004.
+- Analyzed employee sales in conjunction with their respective salaries to pinpoint top performers.
 
 ## Data Analysis 
 

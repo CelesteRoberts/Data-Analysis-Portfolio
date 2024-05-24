@@ -9,7 +9,7 @@ Database creation, SQL queries and reports, data analysis of findings and recomm
 - [Tools](#tools)
 - [Database Creation and Preparation](#database-creation-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
+- [SQL Queries](#sql=queries)
 - [Findings and Recommendations](#findings-and-recommendations)
 
 ## Project Overview
@@ -43,7 +43,7 @@ The bike shop database consists of nine relational tables, each depicting specif
 - Conducted a month-over-month comparison of sales for 2003 and 2004.
 - Analyzed employee sales in conjunction with their respective salaries to pinpoint top performers.
 
-## Data Analysis 
+## SQL Queries 
 
 This query displays all model types with total sales in order from highest to lowest total sales. 
 The highest revenue generating bicycle model type is "Mountain Full"

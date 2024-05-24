@@ -164,11 +164,11 @@ Result:
    - *Most popular bike models:* The analysis by state reveals that mountain, mountain full, race, and road bikes are the top four most popular models.
    - *Regional preferences*: Road bikes appear to be most popular in densely populated regions, possibly influenced by higher numbers of individuals opting for bicycle commuting in urban settings. 
 
-4. **Month-over-month Sales Comparison:
+4. **Month-over-month Sales Comparison**
    - *Highest revenue months:* November 2003 and December 2004 have the highest sales revenue.
    - *Lowest sales months:* February experienced the lowest sales volume in both 2003 and 2004, indicating a potential seasonal trend.
 
-5. **Employee Performance Analysis:
+5. **Employee Performance Analysis:**
    - *Salary vs. Sales volume:* The employee with the highest salarfy also boasts the highest sales volume.
    - *Salary vs. Sales performanc discrepency:* Interestingly, the second-highest salary-earning employee demonstrates the second-lowest sales volume, suggesting a potential disparity between salary and sales performance. 
 

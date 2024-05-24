@@ -15,8 +15,8 @@ Database creation, SQL queries and reports, data analysis of findings and recomm
 ## Project Overview
 This project originated as an assignment for one of my graduate courses. 
 However, I've expanded its scope by formulating my own business inquiries and developing relevant queries. 
-The database itself was crafted during my graduate studies. The objective of this data analysis endeavor is to offer insights into the sales performance of the bike shop and its employees. 
-Through a thorough examination of the data housed within this relational database, my aim was to identify patterns, propose recommendations based on data-driven insights, and enhance my comprehension of bike shop sales dynamics.
+The database itself was crafted during my graduate studies. The objective of this data analysis is to offer insights into the sales performance of the bike shop and its employees. 
+Through an in-depth examination of the data housed within this relational database, my aim was to identify patterns, propose recommendations based on data-driven insights, and enhance my comprehension of bike shop sales dynamics.
 
 ## Data Source 
 

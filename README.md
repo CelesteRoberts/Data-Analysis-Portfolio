@@ -20,7 +20,7 @@ Through an in-depth examination of the data housed within this relational databa
 
 ## Data Source 
 
-The bike shop database consists of nine relational tables, each depicting specific entities and their attributes. The ER-Diagram presented below visually delineates these tables and their corresponding attributes. 
+The bike shop database consists of nine relational tables, each depicting specific entities and their attributes. I created this ER-Diagram below to visually delineate these tables and their corresponding attributes. 
 
 ![Screenshot 2024-05-24 160530](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/assets/153464094/373a8920-b3aa-4642-9060-be12b77a20e0)
 

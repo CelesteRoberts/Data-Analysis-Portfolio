@@ -1,5 +1,7 @@
 # Bike Shop Analysis
 
+Database creation, SQL queries and reports, data analysis of findings and recommendations. 
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)

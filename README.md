@@ -26,9 +26,9 @@ In addition to constructing this diagram, I identified the primary and foreign k
 ![Screenshot 2024-05-24 160530](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/assets/153464094/373a8920-b3aa-4642-9060-be12b77a20e0)
 
 ## Tools
-MySQL Workbench
-Excel
-Draw.io (to create the ER diagram)
+- MySQL Workbench
+- Excel
+- Draw.io (to create the ER diagram)
 
 ## Database Creation and Preparation
 1. Analyze 9 CSV files provided and determine their entity relationships.
@@ -159,7 +159,7 @@ Result:
    - *Additional finding:* Full mountain bikes are not only the highest revenue-generating model, but also the most commonly purchased, indicating strong demand for this model.
 
 2. **State Sales Analysis:**
-   *Top 5 states by sales revenue:* California, New York, Texas, Florida, and Illinois are the top states by sales revenue.
+   - *Leading states in sales revenue:*  California, New York, Texas, Florida, and Illinois are the top states by sales revenue, possibly connected to factors like 		population density or average household income levels.
 
 3. **Popular Bike Models by State:**
    - *Most popular bike models:* The analysis by state reveals that mountain, mountain full, race, and road bikes are the top four most popular models.
@@ -168,7 +168,7 @@ Result:
 4. **Most-over-month Sales Comparison:
    - *Highest revenue months:* November 2003 and December 2004 have the highest sales revenue.
    - *Lowest sales months:* February experienced the lowest sales volume in both 2003 and 2004, indicating a potential seasonal trend.
-   - 
+
 5. **Employee Performance Analysis:
    - *Salary vs. Sales volume:* The employee with the highest salarfy also boasts the highest sales volume.
    - *Salary vs. Sales performanc discrepency:* Interestingly, the second-highest salary-earning employee demonstrates the second-lowest sales volume, suggesting a potential disparity between salary and sales performance. 

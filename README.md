@@ -36,7 +36,7 @@ The bike shop database consists of nine relational tables, each depicting specif
 - MySQL Workbench
   
 ### Database Creation and Preparation
-Code: [bikeshop_create_schema.sql](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/blob/main/bikeshop_create_schema.sql)
+Code: I have chosen not to share this code, as this was completed as a school assignment, and wish to uphold academic integrity.
 1. Conducted an in-depth analysis of 9 provided CSV files to discern their entity relationships.
 2. Established key constraints to ensure data integrity.
 3. Developed a comprehensive diagram illustrating tables, attributes, primary keys, and foreign keys.
@@ -44,7 +44,8 @@ Code: [bikeshop_create_schema.sql](https://github.com/CelesteRoberts/Bike-Shop-A
 5. Successfully imported CSV files into the bikeshop database, ensuring seamless data integration.
 
 ### Exploratory Data Analysis 
-Code: [bikshop_queries.sql](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/blob/main/bikeshop_queries.sql)
+Code: [bikeshop_queries.sql](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/blob/main/bikeshop_queries.sql)
+      -These queries are my own and were not completed as a school assignment.
 - Determined the bicycle model generating the highest revenue.
 - Identified states boasting the highest sales revenue.
 - Explored the most popular bike model per state.

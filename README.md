@@ -27,13 +27,12 @@ Through an in-depth examination of the data housed within this relational databa
 
 ### Data Source 
 
-The bike shop database consists of nine relational tables, each depicting specific entities and their attributes. I created this ER-Diagram below to visually delineate these tables and their corresponding attributes. 
+The bike shop database consists of nine relational tables, each depicting specific entities and their attributes.
 
 ### Tools
 - MySQL Workbench
   
 ### Database Creation and Preparation
-Code: I have chosen not to share this code, as this was completed as a school assignment, and wish to uphold academic integrity.
 1. Conducted an in-depth analysis of 9 provided CSV files to discern their entity relationships.
 2. Established key constraints to ensure data integrity.
 3. Developed a comprehensive diagram illustrating tables, attributes, primary keys, and foreign keys.
@@ -42,7 +41,6 @@ Code: I have chosen not to share this code, as this was completed as a school as
 
 ### Exploratory Data Analysis 
 Code: [bikeshop_queries.sql](bikeshop_queries.sql)
-      -These queries are my own and were not completed as a school assignment.
 - Determined the bicycle model generating the highest revenue.
 - Identified states boasting the highest sales revenue.
 - Explored the most popular bike model per state.

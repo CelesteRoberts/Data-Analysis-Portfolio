@@ -1,4 +1,5 @@
-use bikeshop;
+-- BIKE SHOP EXPLORATORY ANALYSIS SQL QUERIES 
+-- SKILLS USED: CTE's, joins, aggregate functions, window functions, sub queries, complex queries
 
 -- Find the highest revenue generating bicycle model type 
 SELECT 
@@ -26,13 +27,12 @@ ROUND(SUM(saleprice), 2) as Sales # sums sale price and rounds to 2 decimal plac
 FROM bicycle 
 GROUP BY salestate
 ORDER BY sales DESC #order by sum of total sales highest to lowest
-LIMIT 5 # displaying top 5 only
+LIMIT 5 
 ;
 
 -- What is the most popular bike model per state?
 
-#Subquery to find the maximum quantity for each state
-#create a CTE called ModelCounts, which calculates the counts of each bike model per state.
+-- Subquery to find the maximum quantity for each state
 WITH ModelCounts AS ( 
     SELECT 
         salestate AS State,
@@ -41,27 +41,27 @@ WITH ModelCounts AS (
     FROM bicycle
     GROUP BY State, bikemodel WITH ROLLUP
 )
-# Query to retrieve the most popular bike model per state from the CTE
+--Query to retrieve the most popular bike model per state from the CTE
 SELECT
-    mc.State, #Select state from CTE
-    mc.bikemodel, #Select bikemodel from CTE
-    mc.Qty #Select qty(count) from CTE
-FROM  ModelCounts mc -- CTE
+    mc.State, 
+    mc.bikemodel, 
+    mc.Qty #Select qty(count) 
+FROM  ModelCounts mc
 JOIN (
-#subquery to find the max count for each state
+-- subquery to find the max count for each state
     SELECT
         State,
         MAX(Qty) AS MaxQty #find max qty for each state
     FROM ModelCounts #from cte
-    WHERE bikemodel IS NOT NULL -- Exclude the subtotal rows
+    WHERE bikemodel IS NOT NULL 
     GROUP BY State
-) MaxCounts ON mc.State = MaxCounts.State AND mc.Qty = MaxCounts.MaxQty #joining to CTE
+) MaxCounts ON mc.State = MaxCounts.State AND mc.Qty = MaxCounts.MaxQty --joining to CTE
 WHERE mc.bikemodel IS NOT NULL -- Exclude the subtotal rows
 ORDER BY mc.State ASC,  mc.Qty DESC;
 
 -- Find month over month comparison for 2003 and 2004 sales.
 
-#CTE to find sum of total sales by date (year and month)
+--CTE to find sum of total sales by date (year and month)
 WITH SalesbyDate AS ( #create CTE titled SalesbyDate
 	SELECT 	year(orderdate) as order_year,
 			month(orderdate) as order_month,

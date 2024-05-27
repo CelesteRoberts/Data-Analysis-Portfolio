@@ -42,7 +42,7 @@ The bike shop database consists of nine relational tables, each depicting specif
 5. Successfully imported CSV files into the bikeshop database, ensuring seamless data integration.
 
 ### Exploratory Data Analysis 
-Code: [bikeshop_queries.sql]([bikeshop_queries.sql](https://github.com/CelesteRoberts/Data-Projects/blob/main/bikeshop_queries.sql))
+Code: [bikeshop_queries.sql](https://github.com/CelesteRoberts/Data-Projects/blob/main/bikeshop_queries.sql)
 - Determined the bicycle model generating the highest revenue.
 - Identified states boasting the highest sales revenue.
 - Explored the most popular bike model per state.
@@ -98,7 +98,7 @@ Student Spending Data: The primary dataset used for this analysis is the "studen
 - Performed meaningful statistical analysis of data set to gain insights into spending habits of students in relation to their gender, school year, and income level to gain valuable insights. 
 - Created a series of bar plots, bar graphs, and pie charts to visualize the data.
 
-Code: [student_spending_analysis.ipynb]([student_spending_analysis.ipynb](https://github.com/CelesteRoberts/Data-Projects/blob/main/student_spending_analysis.ipynb))
+Code: [student_spending_analysis.ipynb](https://github.com/CelesteRoberts/Data-Projects/blob/main/student_spending_analysis.ipynb)
 
 ### Data Insights and Recommendations
 #### Results/ Findings

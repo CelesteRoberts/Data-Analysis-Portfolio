@@ -41,7 +41,7 @@ Code: I have chosen not to share this code, as this was completed as a school as
 5. Successfully imported CSV files into the bikeshop database, ensuring seamless data integration.
 
 ### Exploratory Data Analysis 
-Code: [bikeshop_queries.sql](https://github.com/CelesteRoberts/Bike-Shop-Analysis-in-SQL/blob/main/bikeshop_queries.sql)
+Code: [bikeshop_queries.sql](bikeshop_queries.sql)
       -These queries are my own and were not completed as a school assignment.
 - Determined the bicycle model generating the highest revenue.
 - Identified states boasting the highest sales revenue.

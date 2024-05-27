@@ -98,6 +98,8 @@ Student Spending Data: The primary dataset used for this analysis is the "studen
 - Performed meaningful statistical analysis of data set to gain insights into spending habits of students in relation to their gender, school year, and income level to gain valuable insights. 
 - Created a series of bar plots, bar graphs, and pie charts to visualize the data.
 
+Code: [student_spending_analysis.ipynb](student_spending_analysis.ipynb)
+
 ### Data Insights and Recommendations
 #### Results/ Findings
 1. **Equal monthly income distribution:** Despite variations across school years, the analysis indicates a relatively even distribution of monthly income across both genders and different years of schooling. This suggests a consistent earning potential among students regardless of gender or academic progress.

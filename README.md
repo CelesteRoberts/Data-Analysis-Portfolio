@@ -10,9 +10,6 @@ The purpose of this repository is to showcase my data anlytics skills, share pro
 - SQL
   - [Bike Shop Database Creation and Data Exploration](bike-shop-database-creation-and-data-exploration)
 
-- Python
-  	- [Analyzing Student Spending](analyzing-student-spending)
-
 # Portfolio Projects
 
 This section will describe each data project with links to the accompanying code files.

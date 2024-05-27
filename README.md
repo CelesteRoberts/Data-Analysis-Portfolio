@@ -75,5 +75,3 @@ Code: [bikeshop_queries.sql](https://github.com/CelesteRoberts/Bike-Shop-Analysi
    - *Salary vs. Sales performance discrepency:* Interestingly, the second-highest salary-earning employee demonstrates the second-lowest sales volume, suggesting a potential disparity between salary and sales performance. 
 
 These insights provide valuable information for strategic decision-making, such as inventory management, marketing strategies, and employee performance evaluations.
-
-

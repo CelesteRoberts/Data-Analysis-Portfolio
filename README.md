@@ -11,6 +11,8 @@ The purpose of this repository is to showcase my data anlytics skills, share pro
   - [Bike Shop Database Creation and Data Exploration](bike-shop-database-creation-and-data-exploration)
 - Python
   - [Analysis of Student Spending](analysis-of-student-spending)
+- Excel
+   - Farmer's Market Analysis US
 
 # Portfolio Projects
 
@@ -114,3 +116,47 @@ These recommendations are provided based on findings above from the position of 
 - Considering the evident trend of males exhibiting notably higher average spending compared to other genders, it's recommended to prioritize financial planning education and support initiatives towards male students.
 - Considering that freshmen may engage in more work compared to students in higher school years, explore part-time job openings or internship programs specifically tailored for freshmen.
 - Develop strategies to assist students in managing these expenses effectively, such as providing resources for affordable housing options, meal planning tips, and transportation subsidies or alternatives.
+
+## Farmer's Market Analysis in the U.S. 
+
+### Project Overview
+
+Analysis of farmer's market data across the U.S. by State and County using MS Excel. Combined worksheets together using look ups. Produced aggregate summary of findings. 
+
+Skills: VLOOKUP, SUMIF, COUNTIF, CONCAT, calculations 
+
+### Data Source
+
+Two CSV files obtained from Kaggle:
+- Wiki County Info
+- Farmers Markets from USDA
+
+### Steps
+
+1. Created new columns with calculations on wiki county info:
+     - Column "countystate": CONCAT function to combine county and state in one cell with no spaces
+     - Column "people per household": Calculation to determine the average number of people per household
+     - Column "total household income": Calculation to determine the total household income.
+     - Column "personal income projection": Calculation to determine the average income based on total households and number of persons per household.
+     - Column "difference from per capita income:" Calculation that compares personal income projection with the per capita income.
+2. Labeled "farmers markets from USDA" worksheet as "Markets"
+3. Imported county info worksheet into a new worksheet labeled "county info."
+4. Created new columns with calculations and functions on "Markets" worksheet.
+   - Column "countystate": CONCAT function to combine county and state into one column without spaces.
+   - Column "countypopulation": VLOOKUP formula to pull population for each countystate combination from county_info.
+   - Column "countyhouseholds": VLOOKUP formula to pull number of households for each countystate combination from county_info
+5. Performed aggregate analysis in a new worksheet titled "Analysis."
+6. Create table titled “County Analysis.”
+    -Copied county and state columns from “Markets” worksheet and pasted into “Analysis” worksheet.
+    - Removed duplicates. 
+    - Create new columns:
+	    	- Column “Markets”: COUNTIF and CONCAT formula to count the number of markets in each county.
+  	  	- Column: “Markets per capita”: CONCAT and VLOOKUP formula to calculate the number of farmers markets in the county per 100,000 residents. 
+  	  	- Column: “Markets per household”: CONCAT and VLOOKUP formulas to calculate the number of farmers markets in the county per 100,000 households.
+7. Create table titled “State Analysis.”
+  	- Copied state column from analysis worksheet into the new table.
+  	- Removed duplicates.
+  	- Created new columns:
+		    - Column “Markets”: COUNIF formula to count the number of markets in each state.
+	    	- Column “State population”: SUMIF formula to calculate the total population for each state.
+	    	- Column “State markets per capita”: Calculation to determine the number of markets in the state per 100,000 residents. 

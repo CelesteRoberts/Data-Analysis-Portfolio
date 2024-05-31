@@ -12,7 +12,7 @@ The purpose of this repository is to showcase my data anlytics skills, share pro
 - Python
   - [Analysis of Student Spending](analysis-of-student-spending)
 - Excel
-   - Farmer's Market Analysis US
+   - [Farmers Market Analysis in the US](farmers-market-analysis-in-the-us)
 
 # Portfolio Projects
 
@@ -117,7 +117,7 @@ These recommendations are provided based on findings above from the position of 
 - Considering that freshmen may engage in more work compared to students in higher school years, explore part-time job openings or internship programs specifically tailored for freshmen.
 - Develop strategies to assist students in managing these expenses effectively, such as providing resources for affordable housing options, meal planning tips, and transportation subsidies or alternatives.
 
-## Farmer's Market Analysis in the U.S. 
+## Farmer's Market Analysis in the US
 
 ### Project Overview
 

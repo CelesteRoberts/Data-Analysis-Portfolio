@@ -6,11 +6,11 @@ The purpose of this repository is to showcase my data anlytics skills, share pro
 
 # Table of Contents
 
-- [Portfolio Projects](portfolio-projects)
+- [Portfolio Projects](#portfolio-projects)
 - SQL
-  - [Bike Shop Database Creation and Data Exploration](bike-shop-database-creation-and-data-exploration)
+  - [Bike Shop Database Creation and Data Exploration](#bike-shop-database-creation-and-data-exploration)
 - Python
-  - [Analysis of Student Spending](analysis-of-student-spending)
+  - [Analysis of Student Spending](#analysis-of-student-spending)
 
 # Portfolio Projects
 
